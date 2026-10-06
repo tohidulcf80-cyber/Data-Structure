@@ -7,7 +7,7 @@ void insertElement(int A[], int &n, int k, int item)
    
     for (int j = n - 1; j >= k; j--)
     {
-        A[j + 1] = A[j];
+        A[j + 1] = A[j]; 
     }
 
     A[k] = item;
