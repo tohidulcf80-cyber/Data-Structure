@@ -27,7 +27,7 @@ int main() {
 
     while (temp != NULL) {
         printf("%d ", temp->data);
-        temp = temp->next;
+        temp = temp -> next;
     }
 
     free(third);
